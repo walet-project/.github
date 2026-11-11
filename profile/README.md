@@ -1,46 +1,30 @@
-# Walet Docs
-## Fitur
-### Fitur Utama (Role: -)
-- Register: User melakukan registrasi untuk membuat akun
-- Login: User melakukan login dengan username dan password untuk
-terautentikasi
+# Walet Features
+## Key Features (Role: General User)
+- Register: Users can create an account by completing the registration process.
+- Login: Users can log in using their username and password for authentication.
 
-### Fitur Utama (Role: Manager)
-1. Manajemen Tim dan Proyek
-    - Buat Tim/Proyek: Manajer dapat membuat proyek, menentukan deskripsi,
-    dan menetapkan jumlah anggota tim.
-    - Menetapkan Anggota ke Proyek: Manajer dapat menambah atau menghapus
-    anggota sesuai kebutuhan.
-    - Menghapus Anggota dari Proyek: Jika anggota dihapus, dana yang tersisa
-    akan dikembalikan ke dana utama.
-    - Menghapus Proyek: Manajer dapat menghapus proyek setelah selesai atau
-    dibatalkan, dan sisa dana akan dikembalikan ke dana utama atau
-    didistribusikan sesuai kesepakatan.
-    - Finalisasi Proyek: Manajer dapat melakukan finalisasi proyek setelah selesai
-    dan sisa dana akan dikembalikan ke dana utama atau didistribusikan sesuai
-    kesepakatan.
-
-2. Manajemen Dana
-    - Tetapkan Dana Awal: Manajer menentukan anggaran awal untuk proyek.
-    - Distribusi Dana ke Anggota: Dana dibagikan ke anggota sesuai kebutuhan proyek.
-    - Perbarui Dana Utama: Manajer dapat menambah atau mengurangi dana utama proyek.
-    - Tarik Dana dari Anggota: Manajer dapat menarik kembali dana yang tidak digunakan.
-
-3. Persetujuan dan Pemantauan
-    - Setujui/Tolak Permintaan Dana Tambahan: Manajer dapat meninjau dan merespons permintaan dana dari anggota.
-    - Laporan Keuangan: Manajer dapat mengakses laporan tentang penggunaan dana, sisa dana, dan riwayat transaksi.
-    - Analisis Pengeluaran: Manajer dapat menganalisis pengeluaran berdasarkan anggota atau kategori (misalnya: transportasi, akomodasi, bahan proyek, dll.).
-    - Notifikasi: Manajer menerima pemberitahuan terkait permintaan dana danperubahan penting lainnya.
-
-### Fitur Utama (Role: Anggota Tim)
-1. Pelacak Keuangan Pribadi (Untuk Anggota)
-    - Catat Pengeluaran: Anggota dapat mencatat pengeluaran dengan rincian
-(jumlah, kategori, deskripsi, tanggal).
-    - Laporan Pengeluaran: Anggota dapat melihat laporan pengeluaran dalam
-bentuk grafik atau tabel.
-    - Sisa Dana: Anggota dapat memantau saldo yang tersedia.
-2. Permintaan Dana
-    - Permintaan Dana Tambahan: Jika dana kurang, anggota dapat mengajukan
-tambahan dana.
-    - Lacak Status Permintaan: Anggota dapat melihat status persetujuan
-permintaan dana (menunggu, disetujui, ditolak).
+## Key Features (Role: Manager)
+### Team and Project Management
+- Create Team/Project: Managers can create projects, define project descriptions, and specify the required number of team members.
+- Assign Members to Projects: Managers can add or remove team members based on project requirements.
+- Remove Members from Projects: When a member is removed, their remaining allocated funds will be returned to the main project budget.
+- Delete Projects: Managers can delete projects once they are completed or canceled. Any remaining funds will be returned to the main budget or distributed according to an agreement.
+- Finalize Projects: Managers can finalize completed projects, with remaining funds returned to the main budget or distributed according to an agreement.
+### Fund Management
+- Set Initial Budget: Managers can determine the initial budget for each project.
+- Distribute Funds to Members: Managers can allocate funds to team members based on project requirements.
+- Update Main Budget: Managers can increase or decrease the project's main budget.
+- Withdraw Funds from Members: Managers can retrieve unused funds allocated to team members.
+### Approval and Monitoring
+- Approve/Reject Additional Fund Requests: Managers can review and respond to additional funding requests submitted by team members.
+- Financial Reports: Managers can access reports detailing fund utilization, remaining balances, and transaction histories.
+- Expense Analysis: Managers can analyze expenses by team member or category (e.g., transportation, accommodation, project materials, etc.).
+- Notifications: Managers receive notifications regarding funding requests and other important project updates.
+## Key Features (Role: Team Member)
+### Personal Financial Tracker
+- Record Expenses: Team members can record expenses with detailed information, including amount, category, description, and date.
+- Expense Reports: Team members can view their expense reports in graphical or tabular formats.
+- Remaining Balance: Team members can monitor their available funds in real time.
+Fund Requests
+Request Additional Funds: Team members can submit requests for additional funds when their allocated budget is insufficient.
+Track Request Status: Team members can monitor the approval status of their funding requests (Pending, Approved, or Rejected).
